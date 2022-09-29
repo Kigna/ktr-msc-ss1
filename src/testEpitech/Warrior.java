@@ -21,21 +21,21 @@ class Warrior extends Character{
 
 	@Override
 	public void moveRight() {
-		System.out.println(this.getName()+": moves right");
+		System.out.println(this.getName()+": moves right like a bad boy.");
 	}
 
 	@Override
 	public void moveLeft() {
-		System.out.println(this.getName()+": moves left");
+		System.out.println(this.getName()+": moves left like a bad boy.");
 	}
 
 	@Override
 	public void moveForward() {
-		System.out.println(this.getName()+": moves forward");
+		System.out.println(this.getName()+": moves forward like a bad boy.");
 	}
 
 	@Override
 	public void moveBack() {
-		System.out.println(this.getName()+": moves back");
+		System.out.println(this.getName()+": moves back like a bad boy.");
 	}
 }
