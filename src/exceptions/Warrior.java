@@ -1,4 +1,4 @@
-package testEpitech;
+package exceptions;
 
 class Warrior extends Character{
 
