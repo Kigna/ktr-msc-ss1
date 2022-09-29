@@ -63,5 +63,8 @@ abstract class Character implements Movable{
 	
 	protected abstract void attack(String arg);
 	
+	protected void unsheathe() {
+		System.out.println(this.getName()+" unsheathes his weapon.");
+	}
 	
 }

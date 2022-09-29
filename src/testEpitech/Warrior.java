@@ -10,7 +10,7 @@ class Warrior extends Character{
 		super.setWit(3);
 		System.out.println(this.getName()+": My name will go down in history !");
 	}
-
+	
 	@Override
 	protected void attack(String arg) {
 		if( arg == "hammer" || arg == "sword") { 
