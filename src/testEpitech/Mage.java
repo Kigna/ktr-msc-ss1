@@ -21,6 +21,7 @@ class Mage extends Character{
 
 	@Override
 	public void moveRight() {
+		
 		System.out.println(this.getName()+": moves right furtively.");
 	}
 
