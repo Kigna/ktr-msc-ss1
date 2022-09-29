@@ -7,7 +7,7 @@ package testEpitech;
  * @author diallo
  *
  */
-abstract class Character {
+abstract class Character implements Movable{
 	protected String name;
 	protected int life;
 	protected int agility;
